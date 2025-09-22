@@ -207,27 +207,162 @@
             create a smart home that fits your needs and doesn’t lock you in.
           </p>
         </div>
-        <div class="
-        flex
-        flex-wrap
-        justify-center
-        gap-8
-        md:gap-x-16
-        max-w-2xl
-        mx-auto
-        ">
-        <div class="p-4 bg-white dk:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
-          <img src="./assets/partner1.svg" alt="Partner" class="h-16 w-16">
-          <img src="./assets/partner2.svg" alt="Partner" class="h-16 w-16">
-          <img src="./assets/partner3.svg" alt="Partner" class="h-16 w-16">
-          <img src="./assets/partner4.svg" alt="Partner" class="h-16 w-16">
-          <img src="./assets/partner5.svg" alt="Partner" class="h-16 w-16">
-          <img src="./assets/partner6.svg" alt="Partner" class="h-16 w-16">
-          <img src="./assets/partner7.svg" alt="Partner" class="h-16 w-16">
+        <div
+          class="flex flex-wrap justify-center gap-8 md:gap-x-16 max-w-2xl mx-auto"
+        >
+          <div
+            class="flex flex-wrap justify-center gap-20 p-4 dk:bg-neutral-600 shadow-md dark:shadow-xl rounded-md"
+          >
+            <img
+              src="./assets/partner1.svg"
+              alt="Partner"
+              class="h-16 w-16 invert-0 dark:invert"
+            />
+            <img
+              src="./assets/partner2.svg"
+              alt="Partner"
+              class="h-16 w-16 invert-0 dark:invert"
+            />
+            <img
+              src="./assets/partner3.svg"
+              alt="Partner"
+              class="h-16 w-16 invert-0 dark:invert"
+            />
+            <img
+              src="./assets/partner4.svg"
+              alt="Partner"
+              class="h-16 w-16 invert-0 dark:invert"
+            />
+            <img
+              src="./assets/partner5.svg"
+              alt="Partner"
+              class="h-16 w-16 invert-0 dark:invert"
+            />
+            <img
+              src="./assets/partner6.svg"
+              alt="Partner"
+              class="h-16 w-16 invert-0 dark:invert"
+            />
+            <img
+              src="./assets/partner7.svg"
+              alt="Partner"
+              class="h-16 w-16 invert-0 dark:invert"
+            />
+          </div>
         </div>
-      </div>
+      </section>
+      <section class="relative">
+        <div
+          class="flex flex-col lg:flex-row-reverse items-center gap-8 justify-center"
+        >
+          <!-- Image on the right -->
+          <div>
+            <img src="./assets/table.png" alt="Table" class="max-w-sm" />
+          </div>
+
+          <!-- Text on the left -->
+          <div class="flex flex-col items-start gap-4 max-w-md">
+            <h2 class="text-4xl font-bold">Relax You're Home</h2>
+            <p>
+              All our supported hardware includes traditional inputs so you can
+              integrate our products into your house in a way that’s best for
+              everyone.
+            </p>
+            <a
+              href="#"
+              class="py-2 px-6 flex gap-2 bg-amber-400 dark:text-neutral-900 shadow-xl hover:shadow-none focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-amber-400 dark:ring-offset-neutral-800 cursor-pointer transition-all"
+            >
+              Download the app
+            </a>
+          </div>
+        </div>
+        <div
+          class="absolute -bottom-6 -right-32 aspect-square -z-10 md:border-8 border-amber-400 rounded-full md:w-64 lg:w-96 xl:max-w-lg"
+        ></div>
+        <div
+          class="bg-teal-900 h-24 xl:h-48 -mx-8 mt-12 xl:mt-0 xl:absolute xl:w-screen xl:-bottom-8 -z-10"
+        ></div>
       </section>
     </main>
+    <section
+      aria-labelledby="Contact"
+      class="container mx-auto px-8 overflow-hidden"
+    >
+      <div
+        class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20"
+      ></div>
+      <div class="md:flex-1 md:max-w-small relative">
+        <img src="./assets/lamp.png" alt="lamp" class="mx-auto" />
+        <a
+          href="#"
+          class="py-2 px-6 w-max mx-auto mt-12 md:mb-12 flex gap-2 bg-amber-400 dark:text-neutral-900 shadow-xl hover:shadow-none focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-amber-400 dark:ring-offset-neutral-800 cursor-pointer transition-all"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+            />
+          </svg>
+          <span>Download App</span>
+        </a>
+        <img
+          src="./assets/app.svg"
+          alt="app"
+          width="240"
+          class="hidden md:block drop-shadow-xl mb-24 absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs"
+        />
+      </div>
+      <form
+        class="relative border-8 border-neutral-900 p-6 rounded-large grid gap-8 md:flex-1 md:max-w-lg my-4 md:my-12 lg:my-16 bg-white dark:bg-neutral-800 w-full"
+      >
+        <h2 id="contact" class="text-3xl font-bold">Let's Connect</h2>
+        <div class="relative">
+          <input
+            placeholder=""
+            type="text"
+            id="name"
+            class="peer form-input w-full border-4 mt-4 border-amber-400 rounded-md focus:ring-2 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 ouline:none dark:bg-amber-400 dark:text-neutral-900 placeholder:transparent p-1.5"
+          />
+          <label
+            for="name"
+            class="text-neutral-500 text-sm font-bold uppercase absolute -top-4 left-2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 transition-all peer-placeholder-shown:text-neutral-900 peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300"
+            >Your Name</label
+          >
+        </div>
+        <div class="relative">
+          <input
+            placeholder=""
+            type="email"
+            id="email"
+            class="peer form-input w-full mt-4 border-4 border-amber-400 rounded-md focus:ring-2 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 ouline:none dark:bg-amber-400 dark:text-neutral-900 placeholder:transparent p-1.5"
+          />
+          <label
+            for="email"
+            class="text-neutral-500 text-sm font-bold uppercase absolute -top-4 left-2  peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 transition-all peer-placeholder-shown:text-neutral-900 peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300"
+            >Your Email</label
+          >
+        </div>
+        <textarea name="content" id="content" cols="20" rows="5" class="peer form-input w-full mt-4 border-4 border-amber-400 rounded-md focus:ring-2 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 ouline:none dark:bg-amber-400 dark:text-neutral-900 placeholder:transparent p-1.5" placeholder="How can we help?"></textarea>
+        <div class="relative">
+          <label
+            for="content"
+            class="text-neutral-500 text-sm font-bold uppercase absolute -top-4 left-2 -translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 transition-all peer-placeholder-shown:text-neutral-900 peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300"
+          <textarea name="content" id="content" cols="20" rows="5" class="resize-none peer form-input w-full mt-4 border-4 border-amber-400 rounded-md focus:ring-2 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 ouline:none dark:bg-amber-400 dark:text-neutral-900 placeholder:transparent p-1.5" placeholder="How can we help?"></textarea>
+          
+        </div>
+        <a role="menuitem"
+            href="/"
+            class="py-2 px-6 bg-neutral-900 w-max text-white shadow-xl hover:shadow-none focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white-400 dark:ring-offset-amber-400 cursor-pointer transition-all">Sign Up</a>
+      </form>
+    </section>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
